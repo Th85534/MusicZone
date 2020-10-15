@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description"
+content="Homepage">
+<meta name="keywords"
+content="Music, home, about">
+<meta name="author"
+content="Music Zone">
+<style>
+
+body {
+  height: 100px;
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-family: verdana;
+  font-size: 20px;
+  align-items: left;
+  justify-content: left;
+}
+
+.nav{
+   height: 70px;
+   background: lightblue;
+}
+.nav div{
+ display: inline-block;
+ position: absolute;
+ left: 0;
+ padding: 15px;
+ font-size: 20px;
+ color: white;
+}
+.nav ul{
+ position: absolute;
+ right: 5px;
+ padding: 15px;
+ font-size: 20px;
+ color: white;
+}
+.nav ul{
+ position: absolute;
+ right: 5px;
+}
+.nav ul li{
+ display: inline-block;
+}
+.nav ul li a{
+ color: white;
+ padding: 5px;
+}
+.home{
+ background: url("../images/161719");
+ background-size: cover;
+ height: 100vh;
+}
+.home.text-container{
+ text-align: center;
+ display: flex;
+ height: 90vh;
+}
+</style>
+<!--Navbar-->
+<div class="nav">
+<div>Music place</div>
+<ul>
+<li><a href="./home.html">Home</a></li>
+<li><a href="./about.html">About</a></li>
+<div class="text-container">
+</ul>
+</div>
+</head>
+<title>Music place</title>
+<p></p>
+<body>
+<p>1</p>
+<p>
+<audio controls id="myAudio">
+  <source src="Teri Aankhon Mein - Darshan Raval.mp3" type="audio/mp3">
+  <source src="Teri Aankhon Mein - Darshan Raval.ogg" type="audio/ogg">
+     Your browser does not support the audio element.
+</audio>
+<a href="Teri Aankhon Mein - Darshan Raval.mp3" download><button class="button">Download</button></a>
+</p>
+<script>
+document.getElementById("myAudio").addEventListener("play",myFunction);
+
+
+function myFunction() {
+  alert("The audio started to play");
+}
+</script>
+<p>2</p>
+<audio controls id="myAudio1">
+  <source src="Kehndi Haan Kehndi Naa - Sukriti Kakar.mp3" type="audio/mp3">
+  <source src="Kehndi Haan Kehndi Naa - Sukriti Kakar.ogg" type="audio/ogg">
+     Your browser does not support the audio element.
+</audio>
+<a href="Kehndi Haan Kehndi Naa - Sukriti Kakar.mp3" download><button class="button">Download</button></a>
+<script>
+document.getElementById("myAudio1").addEventListener("play",myFunction);
+
+
+function myFunction() {
+   alert("the audio has started to play");
+}
+</script>
+</body>
+<body>
+<p>3</p>
+<p>
+<audio controls id="myAudio2">
+  <source src="Mere Liye Tum Kaafi Ho - Ayushmann Khurrana.mp3" type="audio/mp3">
+  <source src="Mere Liye Tum Kaafi Ho - Ayushmann Khurrana.ogg" type="audio/ogg">
+     Your browser does not support the audio element.
+</audio>
+<a href="Kehndi Haan Kehndi Naa - Sukriti Kakar.mp3" download><button class="button">Download</button></a>
+</p>
+<script>
+document.getElementById("myAudio2").addEventListener("play",myFunction);
+
+
+function myFunction() {
+  alert("The audio started to play");
+}
+</script>
+</body>
+<body>
+<p>4</p>
+<p>
+<audio controls id="myAudio3">
+  <source src="Marshmello - Alone.mp3" type="audio/mp3">
+  <source src="Marshmello - Alone.ogg" type="audio/ogg">
+     Your browser does not support the audio element.
+</audio>
+<a href="Marshmello - Alone.mp3" download><button class="button">Download</button></a>
+</p>
+<script>
+document.getElementById("myAudio3").addEventListener("play",myFunction);
+
+
+function myFunction() {
+  alert("The audio started to play");
+}
+</script>
+</body>
+<body>
+<p>5</p>
+<p>
+<audio controls id="myAudio4">
+  <source src="Unbelievable - Tiger Shroff.mp3" type="audio/mp3">
+  <source src="Unbelievable - Tiger Shroff.ogg" type="audio/ogg">
+     Your browser does not support the audio element.
+</audio>
+<a href="Unbelievable - Tiger Shroff.mp3" download><button class="button">Download</button></a>
+</p>
+<script>
+document.getElementById("myAudio4").addEventListener("play",myFunction);
+
+
+function myFunction() {
+  alert("The audio started to play");
+}
+</script>
+</body>
+</html>
